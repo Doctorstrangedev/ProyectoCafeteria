@@ -245,6 +245,11 @@ flex-direction: column;
   margin-top:15px;
 }
 
+.intereses{
+  position: relative;
+  left: -30px;
+}
+
 .intereses label {
    font-size: 12px;
    margin-left: 33px;
