@@ -132,7 +132,7 @@ input[type='radio']:checked:after {
 .ola2 {
   position: relative;
   transform: rotate(180deg);
-  bottom: 380px;
+  bottom: 385px;
   left: 0px;
   width: 100%;
 
@@ -199,7 +199,7 @@ input[type='radio']:checked:after {
   color: white;
   text-decoration: none;
   /*TOP, RIGHT BOTTOM, LEFT*/
-  margin: 10px 10px 10px 0;
+  margin: 22px 10px 10px 0;
 }
 
 .footer .contenedor {
@@ -245,10 +245,6 @@ flex-direction: column;
   margin-top:15px;
 }
 
-.intereses{
-  position: relative;
-  left: -30px;
-}
 
 .intereses label {
    font-size: 12px;
@@ -262,4 +258,12 @@ flex-direction: column;
 .generos {
   margin-top: 10px;
   font-size: 12px;
+}
+
+.intereses{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 160px;
+  left: 370px;
 }
