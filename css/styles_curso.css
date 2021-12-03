@@ -228,7 +228,7 @@ color: white;
 .formulario {
     display: flex;
     color: white;
-    width: 400px;
+    width: 430px;
     /* padding-top: 50px;
     padding-right: 10px;
     padding-left: 10px;
@@ -275,6 +275,7 @@ color: white;
 /* Tablas */
 table{
     width: 100%; /*toma el 100%de su padre contenedor de 800px*/
+    margin-bottom: 60px;
 }
 
 th{
@@ -288,10 +289,35 @@ td{
 }
 
 table, td, th{
-    border: 1px solid #C29B61;
-    border-collapse: collapse;
+    font-size: 20px;
+    border: 0;
+    /* border-collapse: collapse;
+    border: 1px solid #C29B61; */
 }
-
+i{
+    font-size: 12px;
+}
+.precio{
+    
+    background:#9c540c;
+    color:white;
+    font-size: 12px;
+    padding: 20px 10px;
+    width: 35px;
+    text-align: center;
+    border-radius: 50%;
+    
+}
+.titulo-precio{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color:#321C0C;
+    font-size: 45px;
+    font-family:'Pacifico', cursive;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
 .tabla{
     margin: 50px 0;
 }
